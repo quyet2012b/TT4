@@ -1,5 +1,8 @@
 {
   "name": "BM VB Cũ1",
   "description": "Ứng dụng bóc tách thông tin văn bản hành chính từ file PDF sử dụng AI, hỗ trợ xuất Excel.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

@@ -1,4 +1,3 @@
-
 export interface ExtractedDocument {
   docType: string;
   symbol: string;
@@ -7,6 +6,9 @@ export interface ExtractedDocument {
   authority: string;
   startPage: string;
   pageRange?: string;
+  index?: number;
+  original?: string;
+  sourceFileName?: string;
 }
 
 export enum ProcessingStatus {
